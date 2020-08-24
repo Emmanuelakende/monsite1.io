@@ -1,0 +1,86 @@
+body p{
+	font-size:20px;
+}
+body{
+    background-image: url("fond.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#img{
+	height: 350px;
+	width: 350px;
+}
+#a{
+	border: 1px solid #FF5E4D ;
+	      	margin-left: 0px;
+	      	margin-top:0px;
+	      	padding: 10px;
+	      	font-size: 40px;
+	      	background-color: #FF5E4D;
+			color: black;
+			height: 50px;
+			width: 200px;
+			position:relative;
+			display: block;
+			text-align: center;
+			text-underline-position: orange;
+			border-radius: 50px;
+}
+#i{
+	border: 1px solid #FF5E4D ;
+	      	padding: 10px;
+	      	font-size: 40px;
+	      	background-color: #FF5E4D;
+			color: black;
+			height: 50px;
+			width: 250px;
+			position:relative;
+			display: block;
+			text-align: center;
+			text-underline-position: orange;
+			border-radius: 50px;
+}
+.info{
+	        margin-left: 600px;
+	      	margin-top: -300px;
+}
+nav ul{
+list-style-type:none;
+text-align: justify;
+}
+nav li{
+display:inline-block;
+margin:0px;
+padding:0px;
+color: black;
+}
+nav{
+   margin-left: 130px;
+}
+nav a{
+    margin-left:50px;
+color: black;
+font-weight: 70px;
+font-size: 20px;
+background-color:transparent;
+border-radius: 20px;
+padding: 12px;
+line-height: 100px; /*permet d'espacer le menu d'avec le reste de la page*/
+text-decoration:none; /*permet de supprimer le surlignement des liens*/
+}
+nav a:hover{
+  color:black;
+  background-color: tomato;
+}
+#at{
+	background-color:#C0C0C0;
+	width: 500px;
+}
+a{
+    text-decoration:none;
+    color:tomato;
+}
+a:hover{
+    color:indigo;
+}
